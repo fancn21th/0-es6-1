@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "babel-polyfill": "^6.20.0",
+    "bluebird": "^3.4.7",
+    "jquery": "^3.1.1",
     "webpack": "^1.14.0"
   },
   "devDependencies": {

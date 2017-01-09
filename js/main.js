@@ -4,7 +4,9 @@
 //require('./arrowFunction.js');
 
 //var module = require('./modules/module1.js');
-import { foo as foolish , bar } from './modules/module2.js';
+//import { foo as foolish , bar } from './modules/module2.js';
 
-foolish();
-bar();
+//foolish();
+//bar();
+
+require('./generators/gen2.js');
