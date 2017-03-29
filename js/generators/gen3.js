@@ -11,10 +11,10 @@ const hellFetcher = createHelloFetcher()
 
 hellFetcher.next().value.then(
     (response)=>{
-        console.log(response.json())
+        console.log(response)
     },
     (error)=>{
-
+        console.log(error)
     }
 )
 
