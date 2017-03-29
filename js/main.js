@@ -9,4 +9,4 @@
 //foolish();
 //bar();
 
-require('./generators/gen2.js');
+require('./generators/gen3.js');
