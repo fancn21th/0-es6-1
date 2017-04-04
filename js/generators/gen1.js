@@ -1,9 +1,9 @@
 require("babel-polyfill"); // it is required to add polyfill (http://babeljs.io/docs/usage/polyfill/) in order to make generator working
 
-var myGen = function*() {
-    var one = yield 1;
-    var two = yield 2;
-    var three = yield 3;
+const myGen = function*() {
+    const one = yield 1;
+    const two = yield 2;
+    const three = yield 3;
     console.log(`there is ${one},${two},${three}`);
 };
 
