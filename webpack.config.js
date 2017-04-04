@@ -6,7 +6,7 @@ module.exports = {
     entry: "./js/main.js",
     output: {
         path: __dirname + "/dist",
-        filename: "scripts.min.js"
+        filename: "client.min.js"
     },
     plugins: debug ? [] : [
         new webpack.optimize.DedupePlugin(),

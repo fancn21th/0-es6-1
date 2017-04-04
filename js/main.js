@@ -9,4 +9,7 @@
 //foolish();
 //bar();
 
-require('./generators/gen4.js');
+
+import 'babel-polyfill'
+
+require('./await/await1.js');
